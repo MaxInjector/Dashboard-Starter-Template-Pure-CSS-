@@ -1,0 +1,30 @@
+@font-face {
+    font-family: ne_grotesk;
+    src: url(NEURIALGROTESK-LIGHT.OTF);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: ne_grotesk;
+    src: url(NEURIALGROTESK-REGULAR.OTF);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: ne_grotesk;
+    src: url(NEURIALGROTESK-MEDIUM.OTF);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ne_grotesk;
+    src: url(NEURIALGROTESK-BOLD.OTF);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: ne_grotesk;
+    src: url(NEURIALGROTESK-EXTRABOLD.OTF);
+    font-weight: 600;
+}
+
