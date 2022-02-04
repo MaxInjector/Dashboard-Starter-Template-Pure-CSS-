@@ -4,7 +4,7 @@
     --white-color: #ffffff;
     --grayscale-text: #AFB0B1;
     --text-black: #14142B;
-    --sidebar-bg: #F0F4F7;
+    --sidebar-bg: #F7F8FA;
     --sucess-green: #2ECC71;
     --failure-red: #E74C3C;
 }
@@ -26,7 +26,6 @@ body{
     font-family: ne_grotesk;
     font-weight: normal;
     font-size: 1rem;
-    user-select: none;
     overflow-x: hidden;
 }
 
@@ -51,13 +50,13 @@ a{
     width: 100%;
     margin: 0 auto;
     gap: 0rem;
-    grid-template-columns: 14rem auto;
+    grid-template-columns: 15rem auto;
 }
 
 aside{
     height: 100vh;
-    background: #ebebeb;
-    border-right: 1px solid #000;
+    background: var(--sidebar-bg);
+    border-right: 1px solid #f2f2f2;
 }
 
 aside .top{
@@ -66,6 +65,10 @@ aside .top{
     justify-content: space-between;
     align-items: center;
     /* margin-top: 1.4rem; */
+}
+
+aside .logo{
+    margin: 20px auto;
 }
 
 aside .logo img{
@@ -88,13 +91,13 @@ aside .sidebar{
 }
 
 aside h3{
-    font-weight: normal;
+    font-weight: 400;
     font-size: 1rem;
 }
 
 aside .sidebar a{
     display: flex;
-    color: var(--primary-text);
+    color: #999FAF;
     margin-left: 2rem;
     margin-right: 2rem;
     gap: 1rem;
@@ -102,7 +105,8 @@ aside .sidebar a{
     position: relative;
     height: 2.7rem;
     transition: all 300ms ease;
-
+    margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 aside .sidebar a span{
@@ -118,17 +122,10 @@ aside .sidebar .sidebar-extra-info{
 
 aside .sidebar a.active{
     background: #ffffff;
-    color: red;
+    color: #373F5E;
+    border-radius: 5px;
 }
 
-aside .sidebar a.active svg{
-    color: green;
-    outline-color: red;
-}
-
-aside .sidebar a.active svg:hover{
-    stroke: blanchedalmond;
-}
 
 aside .sidebar a.active span{
     color: green;
