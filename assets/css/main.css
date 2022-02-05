@@ -4,7 +4,7 @@
     --white-color: #ffffff;
     --grayscale-text: #AFB0B1;
     --text-black: #14142B;
-    --sidebar-bg: #F7F8FA;
+    --sidebar-bg: #fff;
     --sucess-green: #2ECC71;
     --failure-red: #E74C3C;
 }
@@ -121,7 +121,7 @@ aside .sidebar .sidebar-extra-info{
 }
 
 aside .sidebar a.active{
-    background: #ffffff;
+    /* background: #ffffff; */
     color: #373F5E;
     border-radius: 5px;
 }
