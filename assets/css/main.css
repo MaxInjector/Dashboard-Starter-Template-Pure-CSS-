@@ -149,6 +149,16 @@ aside .sidebar a:hover span{
     display: none;
 }
 
+.web-container main .top{
+    background: var(--white-color);
+    border-bottom: 1px solid #f2f2f2;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+
 /* Tables Media Queries */
 
 @media screen and (max-width: 1200px) {
