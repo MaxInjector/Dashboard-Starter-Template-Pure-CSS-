@@ -154,10 +154,35 @@ aside .sidebar a:hover span{
     border-bottom: 1px solid #f2f2f2;
     height: 65px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
 }
 
+.user-profile{
+    display: flex;
+    background: #f1f1f1;
+    height: 45px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.user-profile .user-profile-img img{
+    width: 50px;
+}
+
+.user-profile .user-profile-details{
+    margin-left: 1px;
+}
+
+.user-profile .user-profile-details h5{
+    font-size: 15px;
+}
+
+.user-profile .user-profile-details p{
+    font-weight: 100;
+    font-size: 13px;
+}
 
 /* Tables Media Queries */
 
