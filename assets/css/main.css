@@ -143,7 +143,7 @@ aside .sidebar a:hover span{
 }
 
 
-/* Top */
+/*============= Topbar =============*/
 
 .top button{
     display: none;
@@ -159,6 +159,7 @@ aside .sidebar a:hover span{
     padding: 0px 20px;
 }
 
+/*============= Top breadcrum =============*/
 .header-breadcrumb{
     display: block;
 }
@@ -182,6 +183,8 @@ aside .sidebar a:hover span{
     position: relative;
     left: -3px;
 }
+
+/*============= Top  userprofile =============*/
 
 .user-profile{
     display: flex;
@@ -216,8 +219,6 @@ aside .sidebar a:hover span{
     .web-container{
         grid-template-columns: 15rem auto;
     }
-
-
 }
 
 /* Mobile Menu Media query */
@@ -259,11 +260,6 @@ aside .sidebar a:hover span{
         cursor: pointer;
     }
 
-    main{
-        /* margin-top: 8rem;
-        padding: 0 1rem; */
-    }
-
     .top{
         display: flex;
         top: 0;
@@ -289,7 +285,7 @@ aside .sidebar a:hover span{
     }
 }
 
-
+/*============= Main content =============*/
 .main-content{
     margin: 1rem 2.125rem;
     min-height: 100vh;
