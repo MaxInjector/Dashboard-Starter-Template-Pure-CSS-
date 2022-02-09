@@ -193,6 +193,8 @@ aside .sidebar a:hover span{
 
 .user-profile .user-profile-img img{
     width: 50px;
+    position: relative;
+    top: -3px;
 }
 
 .user-profile .user-profile-details{
