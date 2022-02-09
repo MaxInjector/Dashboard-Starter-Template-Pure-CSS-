@@ -214,14 +214,13 @@ aside .sidebar a:hover span{
 
 @media screen and (max-width: 1200px) {
     .web-container{
-        grid-template-columns: 10rem auto;
+        grid-template-columns: 15rem auto;
     }
 
-    aside .sidebar h3{
-    }
+
 }
 
-/* Mobile Media query */
+/* Mobile Menu Media query */
 @media screen and (max-width: 768px){
     .web-container{
         width: 100%;
