@@ -159,6 +159,30 @@ aside .sidebar a:hover span{
     padding: 0px 20px;
 }
 
+.header-breadcrumb{
+    display: block;
+}
+
+.header-breadcrumb .header-breadcrumb-container{
+    display: flex;
+    gap: .5rem;
+}
+
+.header-breadcrumb .header-breadcrumb-container .header-breadcrumb-item a{
+    color: #999FAF;
+    font-size: 1rem;
+}
+
+.header-breadcrumb-item span{
+    color: #373F5E;;
+}
+
+.header-breadcrumb-item span::before{
+    content: '/';
+    position: relative;
+    left: -3px;
+}
+
 .user-profile{
     display: flex;
     background: #f1f1f1;
